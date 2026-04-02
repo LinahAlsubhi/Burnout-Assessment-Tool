@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Burnout Assessment Tool</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Burnout Assessment Tool</h1>
+        
+        <div class="battery">
+        <div class="box"></div>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span> 
+        </div>
+
+        <div class="quiz-area">
+            <p id="question-text">Do you feel emotionally drained at the end of your workday?</p>
+            <div class="buttons">
+                <button onclick="drainEnergy()">Yes, I do.</button>
+                <button onclick="keepEnergy()">No, I do not.</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
